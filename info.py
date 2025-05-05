@@ -45,21 +45,21 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/demoshort")
 TUTORIAL2 = environ.get("TUTORIAL2", "https://t.me/demoshort")
 TUTORIAL3 = environ.get("TUTORIAL3", "https://t.me/demoshort")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://envs.sh/Cpl.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "e5a0df550303e31db72c8924e40e706976a2adb2")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "Modijiurl.com")
-SHORTENER_API2 = environ.get("SHORTENER_API2", "")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "")
-SHORTENER_API3 = environ.get("SHORTENER_API3", "")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "")
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "3600"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "21600"))
+SHORTENER_API = environ.get("SHORTENER_API", "abf109fe4a9cc3c7b4d3b266d4c5e5a68d063261")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "shortner.noirsane.com")
+SHORTENER_API2 = environ.get("SHORTENER_API2", "abf109fe4a9cc3c7b4d3b266d4c5e5a68d063261")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "shortner.noirsane.com")
+SHORTENER_API3 = environ.get("SHORTENER_API3", "abf109fe4a9cc3c7b4d3b266d4c5e5a68d063261")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", "shortner.noirsane.com")
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "120"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "240"))
 
 # languages search
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam"]
 
-auth_channel = environ.get('AUTH_CHANNEL', '-1002092476960')
+auth_channel = environ.get('AUTH_CHANNEL', '0')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1004658349340'))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001988516031'))
 
 # bot settings
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
